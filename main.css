@@ -135,5 +135,18 @@ p {
   box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
     0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
 }
-
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+    width: min(80%, 28.12em);
+  }
+  h2,
+  strong {
+    font-size: 70px;
+  }
+  .box {
+    padding: 1em 1em;
+  }
+}
 /* End Utils */
