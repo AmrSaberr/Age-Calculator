@@ -40,21 +40,21 @@ body {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 90px;
-  letter-spacing: -8px;
+  font-size: 50px;
+  letter-spacing: -4px;
   font-weight: 800;
   color: var(--clr-slate800);
   line-height: 0.8;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 strong {
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 800;
-  letter-spacing: -8px;
+  letter-spacing: -4px;
   color: var(--clr-indigo);
 }
 .container {
-  width: min(60%, 28.12em);
+  width: min(90%, 28.12em);
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -66,7 +66,7 @@ strong {
 }
 .box {
   background-color: var(--clr-light);
-  padding: 1.87em 1.5em;
+  padding: 15px 15px;
   border-radius: 0.5em;
   box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
   margin-bottom: 3.12em;
@@ -93,7 +93,7 @@ input {
 }
 .result div {
   height: 6.25em;
-  width: 6.25em;
+  width: 5.25em;
   background-color: var(--clr-slate800);
   border-radius: 0.31em;
   color: var(--clr-dark);
@@ -136,17 +136,9 @@ p {
     0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
 }
 /* xs */
-@media (min-width: 475px) {
+@media (min-width: 768px) {
   .container {
-    max-width: 475px;
-    width: min(80%, 28.12em);
-  }
-  h2,
-  strong {
-    font-size: 70px;
-  }
-  .box {
-    padding: 1em 1em;
+    max-width: 750px;
   }
 }
 /* End Utils */
